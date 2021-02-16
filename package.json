@@ -2,7 +2,7 @@
   "name": "characters",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://classicaljo.github.io/characters",
+  "homepage": "http://classicaljo.github.io/characters/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
