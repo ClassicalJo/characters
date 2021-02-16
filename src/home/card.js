@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 let Card = ({ src, title, to }) => {
     return (
         <div className="card">
-            <Link to={to}>
+            <Link to={`${to}`}>
                 <div className="circle">
                     <img width="100%" src={src}></img>
                 </div>

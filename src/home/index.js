@@ -8,9 +8,9 @@ let Home = () => {
         <div className="page">
             <h1>Buenos Aires de noche, 199x</h1>
             <div className="three-columns">
-                <Card src={sheet} title={"Tu hoja de personaje"} to="/login"/>
-                <Card src={ink} title={"Resumen de la historia"} to="/recap"/>
-                <Card src={drop} title={"Protagonistas"} to="/characters"/>
+                <Card src={sheet} title={"Tu hoja de personaje"} to="/characters/login"/>
+                <Card src={ink} title={"Resumen de la historia"} to="/characters/recap"/>
+                <Card src={drop} title={"Protagonistas"} to="/characters/characters"/>
             </div>
         </div>
     )

@@ -26,13 +26,13 @@ function App() {
         <Router>
           <div className="App">
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/login" component={Login} />
-              <PrivateRoute path="/viktor" component={Character} player={"viktor"} />
-              <PrivateRoute path="/selene" component={Character} player={"selene"} />
-              <PrivateRoute path="/talor" component={Character} player={"talor"} />
-              <PrivateRoute path="/tobias" component={Character} player={"tobias"} />
-              <PrivateRoute path="/helena" component={Character} player={"helena"} />
+              <Route exact path="/characters/" component={Home} />
+              <Route path="/characters/login" component={Login} />
+              <PrivateRoute path="/characters/viktor" component={Character} player={"viktor"} />
+              <PrivateRoute path="/characters/selene" component={Character} player={"selene"} />
+              <PrivateRoute path="/characters/talor" component={Character} player={"talor"} />
+              <PrivateRoute path="/characters/tobias" component={Character} player={"tobias"} />
+              <PrivateRoute path="/characters/helena" component={Character} player={"helena"} />
               <Route component={NotFound}></Route>
             </Switch>
           </div>
